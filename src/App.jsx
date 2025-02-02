@@ -10,7 +10,7 @@ function App() {
   const { theme } = useTheme();
   return (
     <Router>
-      <div className={`flex flex-col h-screen overflow-hidden w-fit md:w-auto ${theme}  bg-gray-100 dark:bg-black text-gray-900 dark:text-white`}>
+      <div className={`flex flex-col  md:h-screen overflow-hidden w-fit md:w-auto ${theme}  bg-gray-100 dark:bg-black text-gray-900 dark:text-white`}>
         <Navbar />  
         <div className="flex-grow">
           <Routes>

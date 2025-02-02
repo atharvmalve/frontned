@@ -24,7 +24,7 @@ const Homepage = () => {
   };
 
   return (
-    <div className={`min-h-screen bg-black text-white flex flex-col items-center justify-start px-4 mt-24 md:mt-40 relative`}>
+    <div className={`h-screen w-full bg-black text-white flex flex-col items-center justify-start px-4 mt-24 md:mt-40 relative`}>
       <motion.h1 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
